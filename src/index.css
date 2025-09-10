@@ -1,9 +1,16 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
   --eco-cyan: rgb(0, 191, 195);
   --eco-green: rgb(126, 217, 87);
   --eco-brown: rgb(123, 58, 31);
+  --eco-reward-button: rgb(28, 53, 73);
+  --eco-light-green: rgb(200, 255, 200);
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
 }
 
 .bg-eco-cyan { background-color: var(--eco-cyan); }
@@ -24,3 +31,7 @@
 
 /* Cream inner surface for Quick Tip */
 .bg-eco-cream { background-color: rgb(244, 240, 216); }
+
+/* Reward section colors */
+.bg-eco-light-green { background-color: var(--eco-light-green); }
+.bg-eco-reward-button { background-color: var(--eco-reward-button); }
